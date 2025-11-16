@@ -24,10 +24,31 @@ const AboutSchema = new mongoose.Schema(
       default: [],
     },
     profileImage: {
-      type: String, 
+      type: String,
     },
     resumeUrl: {
       type: String,
+    },
+
+    github: {
+      type: String,
+      trim: true,
+    },
+    linkedin: {
+      type: String,
+      trim: true,
+    },
+    instagram: {
+      type: String,
+      trim: true,
+    },
+    medium: {
+      type: String,
+      trim: true,
+    },
+    youtube: {
+      type: String,
+      trim: true,
     },
   },
   {
